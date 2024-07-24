@@ -1,0 +1,91 @@
+body {
+    font-size: 2.5vh;
+    top: 15%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #f0f0f0; 
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    border: 5px solid #3d3d3d; 
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    text-align: right;
+    font-size: 2.8vh;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid #a35e2b; 
+    color: #ffffff; 
+    border-radius: 15px;
+    background-color: #181818; 
+}
+
+#last_operation_history {
+    height: 1.8vh;
+    font-size: 1.8vh;
+    text-align: right;
+    padding-right: 1.5vh;
+    color: #b1b0b0; 
+    background-color: #181818; 
+}
+
+button {
+    width: 9vh;
+    height: 9vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #ffffff; 
+    background-color: #565656; 
+    border-radius: 50%;
+    border: 1px solid #2b2b2b; 
+}
+
+#backspace_btn {
+    background-image: url("../assets/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7em;
+}
+
+button:hover {
+    background-color: #8a8a8a;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #e67e22; 
+}
+
+.operator:hover {
+    background-color: #f39c12; 
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #27ae60; 
+    color: #ffffff; 
+    border: none; 
+}
+
+#equal_sign:hover {
+    background-color: #2ecc71;
+}
